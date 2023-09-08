@@ -1,0 +1,2 @@
+// Queries documents in collections
+db.school.find()
