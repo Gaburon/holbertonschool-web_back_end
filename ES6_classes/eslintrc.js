@@ -3,6 +3,11 @@ module.exports = {
     browser: false,
     es6: true,
     jest: true,
+    'linebreak-style': [
+      'error',
+      process.platform === 'win32' ? 'windows' : 'unix',
+    ],
+
   },
   extends: [
     'airbnb-base',
