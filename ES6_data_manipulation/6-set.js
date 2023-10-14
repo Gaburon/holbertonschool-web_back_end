@@ -1,3 +1,5 @@
-const setFromArray = (array) => new Set(array);
-
-export default setFromArray;
+/* enlist-disable */
+export default function setFromArray(array) {
+    const set = new Set(array);
+    return set;
+}
